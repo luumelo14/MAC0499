@@ -70,7 +70,7 @@ header {
 
 header h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 48px; font-weight: 900;
+  font-size: 38px; font-weight: 900;
   line-height: 1.2;
   color: #303030;
   letter-spacing: -1px;
@@ -98,14 +98,14 @@ header h2 {
   max-width: 100%;
 }
 
-#downloads {
+#paginas {
   margin-bottom: 40px;
 }
 
 a.button {
   display: block;
   float: left;
-  width: 179px;
+  width: 120px;
   padding: 12px 8px 12px 8px;
   margin-right: 14px;
   font-size: 15px;
@@ -149,12 +149,9 @@ a.button:hover {
 a.button span {
   display: block;
   height: 23px;
-  padding-left: 50px;
+  padding-left: 40px;
 }
 
-#download-zip span {
-  background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
-}
 #download-tar-gz span {
   background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
 }
