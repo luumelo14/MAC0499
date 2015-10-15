@@ -96,7 +96,7 @@ header h2 {
 }
 
 .inner {
-  width: 40%;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -122,11 +122,12 @@ header h2 {
 a.button {
   display: block;
   float: left;
-  width: 120px;
+  width: 150px;
   padding: 12px 8px 12px 8px;
   margin-right: 14px;
   font-size: 15px;
   font-weight: bold;
+  vertical-align: middle; 
   line-height: 25px;
   color: #303030;
   background: #fdfdfd; /* Old browsers */
@@ -169,8 +170,15 @@ a.button span {
   padding-left: 40px;
 }
 
-#proposta span {
-  padding-left: 30px;
+#home span {
+  padding-left: 55px;
+}
+
+#preliminar span  {
+  width: 500px;
+  padding-left: 0px;
+  display: block;
+  float: left;
 }
 
 #download span {
