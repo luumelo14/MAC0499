@@ -92,7 +92,7 @@ header h2 {
 }
 
 #main-content {
-  padding-left: 10%;
+  padding-left: 20px;
 }
 
 .inner {
@@ -123,13 +123,13 @@ margin-top: 20px;
 a.button {
   display: block;
   float: left;
-  width: 150px;
-  padding: 12px 8px 12px 8px;
+  width: 100px;
+  padding: 8px 8px 8px 8px;
   margin-right: 14px;
   font-size: 15px;
   font-weight: bold;
   vertical-align: middle; 
-  line-height: 25px;
+  line-height: 15px;
   color: #303030;
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
@@ -172,18 +172,38 @@ a.button span {
 }
 
 #home span {
-  padding-left: 55px;
+  padding-top: 10px;
+  padding-left: 30px;
 }
-
+#proposta span {
+  padding-top: 10px;
+  padding-left: 20px;
+}
 #preliminar span  {
-  width:200px;
-  padding-left: 0px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  height: 30px;
+  text-align: center;
   display: block;
   float: left;
 }
-
+#poster span {
+   padding-top: 10px;
+   padding-left: 25px;
+}
+#apresentacao span {
+   padding-top: 10px;
+   padding-left: 2px;
+}
+#monografia span {
+  text-align: center;
+  padding-left: 0px;
+   padding-bottom: 10px;
+}
 #download span {
-  padding-left: 20px;
+  text-align: center;
+  padding-left: 0px;
+  padding-bottom: 12px;
 }
 
 #download-tar-gz span {
