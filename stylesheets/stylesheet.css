@@ -94,7 +94,6 @@ header h2 {
 #main-content {
   padding-left: 20px;
 }
-
 .inner {
   width: 65%;
   margin: 0 auto;
@@ -106,6 +105,7 @@ header h2 {
 
 #paginas {
   margin-bottom: 40px;
+
 }
 #downloads {
 text-align: middle; 
@@ -168,20 +168,16 @@ a.button:hover {
 a.button span {
   display: block;
   height: 23px;
-  padding-left: 40px;
 }
 
 #home span {
   padding-top: 10px;
-  padding-left: 30px;
 }
 #proposta span {
   padding-top: 10px;
-  padding-left: 20px;
 }
 #preliminar span  {
   padding-bottom: 3px;
-  padding-left: 5px;
   height: 30px;
   text-align: center;
   display: block;
@@ -189,15 +185,13 @@ a.button span {
 }
 #poster span {
    padding-top: 10px;
-   padding-left: 25px;
 }
 #apresentacao span {
    padding-top: 10px;
-   padding-left: 2px;
+
 }
 #monografia span {
   text-align: center;
-  padding-left: 0px;
    padding-bottom: 10px;
 }
 #download span {
@@ -424,3 +418,12 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
+
+#paginas {
+  text-align: center;
+  width: 100%;
+}
+
+#botoes {
+  display: inline-block;
+}
